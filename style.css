@@ -25,6 +25,10 @@ div{
     text-align: center;
 }
 
+h1{
+    text-align: center;
+}
+
 h2{
     font-size: 1em;
 }
@@ -98,7 +102,7 @@ div#msg{
     height: 2.1em;
 }
 
-#details-container #umidity{
+#details-container #humidity{
     border-right: 1px solid #fff;
     margin: 0.6em;
     padding: 0.6em;
