@@ -1,6 +1,6 @@
 body{
     background-color: rgb(59, 59, 248);
-    font: normal 15pt arial;
+    font: normal 1.4em arial;
 }
 
 header{
@@ -17,12 +17,91 @@ section{
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.328);
 }
 
+section#prev{
+    margin-top: 10px;
+}
+
 div{
     text-align: center;
 }
 
+h2{
+    font-size: 1em;
+}
+
 div#msg{
     margin-bottom: 20px;
+}
+
+.form h2{
+    margin-bottom: 1em;
+
+}
+
+.form input#container{
+    display: flex;
+}
+.form input{
+    padding: .8em;
+    border: none;
+}
+
+.form button{
+    padding: .8em;
+    min-width: 50px;
+    margin-left: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#weather-data{
+    border-top: 1px solid white;
+    margin-top: 1.5em;
+    padding-top: 1.5em;
+    text-align:center;
+}
+
+#weather-data h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.6em;
+}
+
+#weather-data h2 i{
+    font-size: 1em;
+}
+
+#weather-data span{
+    margin: 0.6em;
+}
+
+#country{
+    height: 1.4em;
+}
+
+#description-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.6em 0;
+}
+
+#details-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#weather-icon{
+    width: 2.1em;
+    height: 2.1em;
+}
+
+#details-container #umidity{
+    border-right: 1px solid #fff;
+    margin: 0.6em;
+    padding: 0.6em;
 }
 
 footer{
