@@ -1,8 +1,8 @@
 # Hora-Tempo
 
 <h1 align="center"> Hours-Time / Hora-Tempo </h1>
-API configured without "dotenv"
-API configgurada sem "dotenv"
+API configured without "dotenv" <br>
+API configurada sem "dotenv"
 
 <p align="center">
   <a href="#-technologies-tecnologias">Tecnologias-Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
