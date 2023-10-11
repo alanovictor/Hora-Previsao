@@ -2,7 +2,7 @@
 
 <h1 align="center"> Hours-Time / Hora-Tempo </h1>
 <p align="center"> API configured without "dotenv" </p>
- <br>
+
 <p> API configurada sem "dotenv"</p>
 
 <p align="center">
