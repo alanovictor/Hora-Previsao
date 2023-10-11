@@ -1,9 +1,9 @@
 # Hora-Tempo
 
 <h1 align="center"> Hours-Time / Hora-Tempo </h1>
-<p align="center"> </p>API configured without "dotenv" </p>
+<p align="center"> </p>API configured without "dotenv" 
  <br>
-<p align="center">API configurada sem "dotenv"</p>
+API configurada sem "dotenv"</p>
 
 <p align="center">
   <a href="#-technologies-tecnologias">Tecnologias-Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
