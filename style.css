@@ -1,115 +1,121 @@
-body{
-    background-color: rgb(59, 59, 248);
-    font: normal 1.4em arial;
+@charset "UTF-8";
+
+body {
+  background-color: rgb(59, 59, 248);
+  font: normal 1.4em arial;
 }
 
-header{
-    color:white;
-    text-align: center;
+header {
+  color: white;
+  text-align: center;
 }
 
-section{
-    background-color: white;
-    border-radius:  10px;
-    padding: 15px;
-    width: 500px;
-    margin: auto;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.328);
+section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.328);
 }
 
-section#prev{
-    margin-top: 10px;
+section#prev {
+  margin-top: 10px;
 }
 
-div{
-    text-align: center;
+div {
+  text-align: center;
 }
 
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
 
-h2{
-    font-size: 1em;
+h2 {
+  font-size: 1em;
 }
 
-div#msg{
-    margin-bottom: 20px;
+div#msg {
+  margin-bottom: 20px;
 }
 
-.form h2{
-    margin-bottom: 1em;
-
+.form h2 {
+  margin-bottom: 1em;
 }
 
-.form input#container{
-    display: flex;
+.form input#container {
+  display: flex;
 }
-.form input{
-    padding: .8em;
-    border: none;
-}
-
-.form button{
-    padding: .8em;
-    min-width: 50px;
-    margin-left: 8px;
-    border-radius: 4px;
-    cursor: pointer;
+.form input {
+  padding: 0.8em;
+  border: none;
 }
 
-#weather-data{
-    border-top: 1px solid white;
-    margin-top: 1.5em;
-    padding-top: 1.5em;
-    text-align:center;
+.form button {
+  padding: 0.8em;
+  min-width: 50px;
+  margin-left: 8px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-#weather-data h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 0.6em;
+#weather-data {
+  border-top: 1px solid white;
+  margin-top: 1.5em;
+  padding-top: 1.5em;
+  text-align: center;
 }
 
-#weather-data h2 i{
-    font-size: 1em;
+#weather-data h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.6em;
 }
 
-#weather-data span{
-    margin: 0.6em;
+#weather-data h2 i {
+  font-size: 1em;
 }
 
-#country{
-    height: 1.4em;
+#weather-data span {
+  margin: 0.6em;
 }
 
-#description-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0.6em 0;
+#country {
+  height: 1.4em;
 }
 
-#details-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#description-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.6em 0;
 }
 
-#weather-icon{
-    width: 2.1em;
-    height: 2.1em;
+#details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#details-container #humidity{
-    border-right: 1px solid #fff;
-    margin: 0.6em;
-    padding: 0.6em;
+#weather-icon {
+  width: 2.1em;
+  height: 2.1em;
 }
 
-footer{
-    text-align: center;
-    font-style: italic;
+#details-container #humidity {
+  border-right: 1px solid #fff;
+  margin: 0.6em;
+  padding: 0.6em;
 }
 
+footer {
+  text-align: center;
+  font-style: italic;
+}
+
+@media screen and (min-width: 1px) and (max-width: 768px) {
+  section {
+    width: 300px;
+  }
+}
