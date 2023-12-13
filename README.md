@@ -1,13 +1,13 @@
 # Hora-Tempo
 
 <h1 align="center"> Hours-Time / Hora-Tempo </h1>
-API configured without "dotenv" <br>
-API configurada sem "dotenv"
+<p align="center"> API configured without "dotenv" </p>
+
+<p align="center"> API configurada sem "dotenv"</p>
 
 <p align="center">
   <a href="#-technologies-tecnologias">Tecnologias-Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-project-projeto">Project-Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license-licença">License-Licença</a>
 </p>
 
